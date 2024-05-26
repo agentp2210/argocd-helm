@@ -20,9 +20,9 @@ ingress:
   annotations:
     # kubernetes.io/ingress.class: alb
     # kubernetes.io/tls-acme: "true"
-    alb.ingress.kubernetes.io/scheme: internet-facing
-    alb.ingress.kubernetes.io/target-type: ip
-  className: alb
+    # alb.ingress.kubernetes.io/scheme: internet-facing
+    # alb.ingress.kubernetes.io/target-type: ip
+  className: nginx
   path: /
   # hosts:
     #  - 364904642785.realhandsonlabs.net
