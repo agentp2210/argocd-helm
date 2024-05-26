@@ -25,7 +25,7 @@ ingress:
   className: nginx
   path: /
   hosts:
-     - anhalan.nl
+     - guestbook.anhalan.nl
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
