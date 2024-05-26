@@ -24,8 +24,8 @@ ingress:
     # alb.ingress.kubernetes.io/target-type: ip
   className: nginx
   path: /
-  hosts:
-     - guestbook.anhalan.nl
+  host: guestbook.anhalan.nl
+      
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
