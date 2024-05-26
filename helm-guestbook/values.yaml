@@ -24,8 +24,8 @@ ingress:
     # alb.ingress.kubernetes.io/target-type: ip
   className: nginx
   path: /
-  # hosts:
-    #  - 364904642785.realhandsonlabs.net
+  hosts:
+     - anhalan.nl
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
